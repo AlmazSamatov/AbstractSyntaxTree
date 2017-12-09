@@ -1,0 +1,46 @@
+Answer: 2
+
+JSON: 
+{
+     "Operation" : "and",
+     "LeftExpression" : 
+     {
+          "Operation" : "+",
+          "LeftExpression" : 
+          {
+               "Operation" : "*",
+               "LeftExpression" : 
+               {
+                    "Number" : "17"
+               },
+               "RightExpression" : 
+               {
+                    "Number" : "83"
+               }
+          },
+          "RightExpression" : 
+          {
+               "Operation" : "/",
+               "LeftExpression" : 
+               {
+                    "Operation" : "-",
+                    "LeftExpression" : 
+                    {
+                         "Number" : "23"
+                    },
+                    "RightExpression" : 
+                    {
+                         "Number" : "19"
+                    }
+               },
+               "RightExpression" : 
+               {
+                    "Number" : "54"
+               }
+          }
+     },
+     "RightExpression" : 
+     {
+          "Number" : "2"
+     }
+}
